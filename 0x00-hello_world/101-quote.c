@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main - prints the standrad error sandwiched around the standard output
+ * main - prints the standrad error
  * Return: 1
  */
 int main(void)
