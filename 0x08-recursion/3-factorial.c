@@ -1,18 +1,18 @@
 #include "main.h"
 /**
- * _pow_recursion - pow recursion
- * @x: integer params
- * @y: integer paramtr
+ * factorial - factorial n
+ * @n: integer arams
  * Return: recursion
  */
-int _pow_recursion(int x, int y)
+int factorial(int n)
 {
-if (y < 0)
+if (n < 0)
 {
 return (-1);
 }
-if (y == 0)
+if (n == 1)
 {
 return (1);
 }
+return (n * factorial(n - 1));
 }
